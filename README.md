@@ -1,23 +1,24 @@
 # IBM-Project-45153-1660728537
+
 PROJECT NAME:  Web Phishing Detection
 
-PROJECT DOMAIN : Data Science
+PROJECT DOMAIN : Applied Data Science
 
 PROJECT TEAM ID: PNT2022TMID40333
 
 <br>
 
-PROJECT TEAM
+PROJECT TEAM MEMBERS
 
-Team Member 1:  Sathish P
+1. Team Leader :  Sathish P
 
-Team Member 2:  Yokesh M
+2. Team Member :  Yokesh M
 
-Team Member 3:  Kalyana Sundaram R
+3. Team Member :  Kalyana Sundaram R
 
-Team Member 4:  Rishyasrungar R A
+4. Team Member :  Rishyasrungar R A
 
-Team Member 5:  Nandhan k
+5. Team Member :  Nandhan k
 
 <br>
 
