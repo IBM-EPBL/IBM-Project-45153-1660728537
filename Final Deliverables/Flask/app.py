@@ -33,7 +33,7 @@ def y_predict():
 	prediction = model.predict(checkprediction)
 	print(prediction)
 	output=prediction[0]
-	if(output==1): 
+	if(output==-1): 
 		pred="Your are safe!! This is a Legitimate Website."
 	else:
 		pred="You are on the wrong site. Be cautious!"
