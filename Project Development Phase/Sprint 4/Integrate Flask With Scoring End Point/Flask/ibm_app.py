@@ -44,7 +44,7 @@ def y_predict():
 	print("Scoring response")
 	pred=response_scoring.json()
 	output=pred['predictions'][0]['values'][0][0]
-	if(output==1): 
+	if(output==-1): 
 		pred="Your are safe!! This is a Legitimate Website."
 	else:
 		pred="You are on the wrong site. Be cautious!"
