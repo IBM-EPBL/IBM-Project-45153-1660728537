@@ -36,7 +36,7 @@ def predict():
 @app.route('/y_predict', methods=['POST','GET'])
 def y_predict(): 
 
-	url = request.form['url']
+	url = request.form['URL']
 	
 	payload_scoring = {"input_data": [{"fields": [['f0','f1','f2','f3','f4','f5','f6','f7','f8','f9','f10','f11','f12','f13','f14','f15','f16','f17','f18','f19','f20','f21','f22','f23','f24','f25','f26','f27','f28','f29']], "values": [[-1,1,1,1,-1,-1,-1,-1,-1,1,1,-1,1,-1,1,-1,-1,-1,0,1,1,1,1,-1,-1,-1,-1,1,1,-1]]}]}
 	
@@ -44,7 +44,7 @@ def y_predict():
 	print("Scoring response")
 	pred=response_scoring.json()
 	output=pred['predictions'][0]['values'][0][0]
-	if(output==1): 
+	if(output==-1): 
 		pred="Your are safe!! This is a Legitimate Website."
 	else:
 		pred="You are on the wrong site. Be cautious!"
